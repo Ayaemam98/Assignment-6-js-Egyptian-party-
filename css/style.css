@@ -1,0 +1,108 @@
+
+#Home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+.HomeLayer{
+    background-color: rgba(214, 46, 51 , 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.sideNav{
+    width: 0;
+}
+#navMenu{
+    position: fixed;
+    height: 100%;
+    width: 0px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1111118e;
+    padding-top: 60px;
+    transition: 0.5s;
+    overflow-x: hidden;
+
+}
+.sideNav a{
+color: #fff;
+text-decoration: none;
+font-size: 20px;
+display: block;
+padding: 20px 8px 20px 32px;
+}
+.openNav{
+    cursor: pointer;
+}
+.closebtn{
+    position: absolute;
+    top: 0;
+    left: 8rem;
+}
+#home-content h2,p{
+  text-align: center;
+}
+#home-content h2{
+    margin-top: 3.5em;
+    font-size: 3.8rem;
+}
+#sliderDown{
+    width: 50%;
+    margin: auto;
+
+}
+.toggle{
+background-color: #e68285;
+margin: 0;
+color: #fff;
+padding: 15px;
+}
+.inner{
+    background-color: #ccc;
+    display: none;
+}
+#count{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    position: relative;
+}
+.countLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.time{
+    margin-top: 3em;
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#contact-us p, i{
+    color: #777;
+}
+.icons p{
+    padding: 10px;
+}
+.bold{
+    font-weight: 800;
+    font-size: 16px;
+}
+#form textarea{
+    height: 200px;
+}
